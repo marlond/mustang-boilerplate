@@ -1,4 +1,4 @@
-# MUSTANG (Gulp)
+# Mustang Boilerplate (Gulp)
 
 Boilerplate para automatizar tarefas comuns no desenvolvimento Front-End.
 
@@ -37,7 +37,7 @@ Boilerplate para automatizar tarefas comuns no desenvolvimento Front-End.
 └── └── index.html
 ```
 
-**Obervações**: Foi utilizado **gulp-data** para anexar dados nos arquivos **.pug** (antigo jade) e com isso facilitando nossas vidas... É só configurar o arquivo **_data.json** conforme a sua demanda.
+**Obervações**: Foi utilizado `gulp-data` para anexar dados nos arquivos `.pug` (antigo jade) e com isso facilitando nossas vidas... É só configurar o arquivo `_data.json` conforme a sua demanda.
 
 ### Como usar (abra seu terminal/cmd)
 
@@ -46,7 +46,7 @@ Boilerplate para automatizar tarefas comuns no desenvolvimento Front-End.
 $ git clone https://github.com/faeliaso/mustang-boilerplate.git
 
 # Acesse a pasta clonada
-$ cd mustangoilerplate
+$ cd mustang-boilerplate
 
 # Instale as dependências (npm)
 $ npm install
@@ -69,9 +69,9 @@ Pronto! Se tudo ocorrer direitinho seu navegador irá abrir com uma página demo
 
 ### Contribuir
 Ajude-nos a melhorar nossa aplicação. Abra uma [issue](https://github.com/faeliaso/mustang-boilerplate/issues/new) ou  envie um `pull request`.
-- [Fork nosso repositório!](https://github.com/faeliaso/mustang-boilerplate#fork-destination-box)
 
 ```shell
+# Fork nosso repositório!!!
 # Crie sua "feature branch"
 $ git checkout -b minha-nova-feature
 
