@@ -1,0 +1,76 @@
+{
+  "name": "mustangprojectname",
+  "version": "0.0.1",
+  "description": "Project description...",
+  "title": "Project name",
+  "keywords": [
+    "node",
+    "gulp",
+    "pug"
+  ],
+  "private": true,
+  "author": "faeliaso",
+  "license": {
+    "type": "MIT",
+    "url": "https://faeliaso.mit-license.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/faeliaso/mustang-boilerplate"
+  },
+  "scripts": {
+    "start": "gulp && gulp filesize",
+    "stop": "rm -rf node_modules",
+    "lint": "eslint app/scripts/ && jshint app/scripts/",
+    "fix": "eslint app/scripts/**/*.js --fix",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "bower install",
+    "precommit": "npm run lint",
+    "preinstall": "npm install -g bower",
+    "prepush": "npm run lint"
+  },
+  "engines": {
+    "node": "^4.4.5",
+    "npm": "^3.5.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.9.0",
+    "babel-preset-es2015": "^6.9.0",
+    "browser-sync": "^2.12.10",
+    "clean-css": "^3.4.14",
+    "critical": "^0.7.2",
+    "del": "^2.2.0",
+    "eslint": "^2.11.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-cache": "^0.4.5",
+    "gulp-clean-css": "^2.0.9",
+    "gulp-connect-php": "0.0.7",
+    "gulp-data": "^1.2.1",
+    "gulp-filter": "^4.0.0",
+    "gulp-flatten": "^0.2.0",
+    "gulp-gzip": "^1.3.0",
+    "gulp-htmlmin": "^2.0.0",
+    "gulp-if": "^2.0.1",
+    "gulp-imagemin": "^3.0.1",
+    "gulp-load-plugins": "^1.2.4",
+    "gulp-main-bower-files": "^1.5.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-pug": "^3.0.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-rev": "^7.0.0",
+    "gulp-rev-replace": "^0.4.3",
+    "gulp-sass": "^2.3.1",
+    "gulp-size": "^2.1.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.3",
+    "gulp-useref": "^3.1.0",
+    "gulp-util": "^3.0.7",
+    "jshint": "^2.9.2",
+    "ngrok": "^2.1.8",
+    "psi": "^2.0.4",
+    "require-dir": "^0.3.0",
+    "run-sequence": "^1.2.1",
+    "wiredep": "^4.0.0"
+  }
+}
