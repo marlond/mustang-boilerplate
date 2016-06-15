@@ -1,5 +1,6 @@
 node_modules
 www/
+dist/
 wordpress
 
 .DS_Store
