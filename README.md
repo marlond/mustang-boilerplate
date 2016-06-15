@@ -37,7 +37,7 @@ Boilerplate para automatizar tarefas comuns no desenvolvimento Front-End.
 └── └── index.html
 ```
 
-**Obervações**: Foi utilizado `gulp-data` para anexar dados nos arquivos `.pug` (antigo jade) e com isso facilitando nossas vidas... É só configurar o arquivo `_data.json` conforme a sua demanda.
+**Obervações**: Foi utilizado `gulp-data` para anexar dados nos arquivos `.pug` (antigo jade) e com isso facilitando o desenvolvimento do projeto. É só configurar o arquivo `_data.json` conforme a demanda.
 
 ### Como usar (abra seu terminal/cmd)
 
