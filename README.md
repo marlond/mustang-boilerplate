@@ -2,6 +2,9 @@
 
 Boilerplate para automatizar tarefas comuns no desenvolvimento Front-End.
 
+[![Build Status](https://travis-ci.org/faeliaso/mustang-boilerplate.svg?branch=master)](https://travis-ci.org/faeliaso/mustang-boilerplate)
+[![licence mit](https://img.shields.io/badge/licence-MIT-blue.svg)](http://faeliaso.mit-license.org/)
+
 ### Estrutura
 ##### Desenvolvimento
 
@@ -68,10 +71,10 @@ $ gulp serve:dist
 Pronto! Se tudo ocorrer direitinho seu navegador irá abrir com uma página demo, e depois é só HardWork Papai! ;)
 
 ### Contribuir
-Ajude-nos a melhorar nossa aplicação. Abra uma [issue](https://github.com/faeliaso/mustang-boilerplate/issues/new) ou  envie um `pull request`.
+Abra uma [issue](https://github.com/faeliaso/mustang-boilerplate/issues/new) ou  envie um `pull request`.
 
 ```shell
-# Fork nosso repositório!!!
+# Fork o repositório!!!
 # Crie sua "feature branch"
 $ git checkout -b minha-nova-feature
 
