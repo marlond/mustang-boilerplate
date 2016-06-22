@@ -9,35 +9,33 @@ Boilerplate para automatizar tarefas comuns no desenvolvimento Front-End.
 ##### Desenvolvimento
 
 ```
-.
-├── app/
-│   ├── _includes/
-│   │   ├── *.pug
-│   ├── _layouts/
-│   │   ├── _default.pug
-│   ├── fonts/
-│   ├── images/
-│   ├── scripts/
-│   │   ├── main.js
-│   ├── styles/
-│   │   ├── main.scss
-│   ├── apple-touch-icon.png
-│   ├── favicon.ico
-└── └── index.pug
+app/
+├── _includes/
+│   ├── *.pug
+├── _layouts/
+│   ├── _default.pug
+├── fonts/
+├── images/
+├── scripts/
+│   ├── main.js
+├── styles/
+│   ├── main.scss
+├── apple-touch-icon.png
+├── favicon.ico
+└── index.pug
 ```
 
 ##### Produção
 
 ```
-.
-├── build/
-│   ├── fonts/
-│   ├── images/
-│   ├── scripts/
-│   ├── styles/
-│   ├── apple-touch-icon.png
-│   ├── favicon.ico
-└── └── index.html
+dist/
+├── fonts/
+├── images/
+├── scripts/
+├── styles/
+├── apple-touch-icon.png
+├── favicon.ico
+└── index.html
 ```
 
 **Observações**: Foi utilizado `gulp-data` para anexar dados nos arquivos `.pug` (antigo jade) e com isso facilitando o desenvolvimento do projeto. É só configurar o arquivo `_data.json` conforme a demanda.
