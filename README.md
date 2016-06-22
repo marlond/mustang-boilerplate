@@ -9,7 +9,6 @@ Boilerplate para automatizar tarefas comuns no desenvolvimento Front-End.
 ##### Desenvolvimento
 
 ```
-.
 app/
 ├── _includes/
 │   ├── *.pug
@@ -29,7 +28,6 @@ app/
 ##### Produção
 
 ```
-.
 build/
 ├── fonts/
 ├── images/
