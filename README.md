@@ -28,7 +28,7 @@ app/
 ##### Produção
 
 ```
-build/
+dist/
 ├── fonts/
 ├── images/
 ├── scripts/
