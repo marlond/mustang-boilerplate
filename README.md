@@ -11,15 +11,15 @@ Boilerplate para automatizar tarefas comuns no desenvolvimento Front-End.
 ```
 app/
 ├── _includes/
-│   ├── *.pug
+│   └── *.pug
 ├── _layouts/
-│   ├── _default.pug
+│   └── _default.pug
 ├── fonts/
 ├── images/
 ├── scripts/
-│   ├── main.js
+│   └── main.js
 ├── styles/
-│   ├── main.scss
+│   └── main.scss
 ├── apple-touch-icon.png
 ├── favicon.ico
 └── index.pug
