@@ -69,7 +69,7 @@ gulp.task('views', () => {
       pretty: true
     }))
     .pipe(gulp.dest(paths.server.html))
-    .pipe(browserSync.reload({stream:true}));
+    .pipe(browserSync.stream());
 });
 
 // inject bower components

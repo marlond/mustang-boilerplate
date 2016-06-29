@@ -32,5 +32,5 @@ gulp.task('styles', () => {
     }))
     .pipe($.sourcemaps.write('.'))
     .pipe(gulp.dest(paths.server.css))
-    .pipe(browserSync.reload({stream:true}));
+    .pipe(browserSync.stream());
 });

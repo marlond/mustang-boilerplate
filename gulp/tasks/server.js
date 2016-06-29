@@ -34,6 +34,7 @@ gulp.task('serve', () => {
     'app/scripts/**/*.js',
     'app/images/**/*',
     '.tmp/*.html',
+    '.tmp/styles/*.css',
     '.tmp/fonts/**/*'
   ]).on('change', reload);
 
